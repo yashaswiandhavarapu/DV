@@ -1,0 +1,9 @@
+data("airquality")
+# View first few rows (optional) 
+head(airquality)
+# Histogram of Ozone Concentration 
+hist(airquality$Ozone,
+main = "Histogram of Ozone Concentration", 
+xlab = "Ozone (ppb)",
+col = "skyblue", 
+border = "black")
